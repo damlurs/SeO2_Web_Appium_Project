@@ -8,8 +8,7 @@ public class Start {
 		try {
 			//Killing IEDriverServer and iexpore applications
 			Runtime.getRuntime().exec("taskkill /IM IEDriverServer.exe /F");
-			Runtime.getRuntime().exec("taskkill /IM iexplore.exe /F");	
-			
+			Runtime.getRuntime().exec("taskkill /IM iexplore.exe /F");				
 			
 			// EnlanceInternet
 			//TestRunner.runTests("E:\\SeleniumProjects\\SeO2_Project\\config\\cfg_EnlanceInternet.xls");
